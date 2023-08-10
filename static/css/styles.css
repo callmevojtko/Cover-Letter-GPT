@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #52c2d6 0%, #945ced 100%);
+    color: #666666;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);  /* Make the containers slightly transparent */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);  /* Add a subtle shadow to the containers */
+}
+
+.btn {
+    transition: all 0.3s ease;  /* Smooth out the hover effect */
+}
+
+.btn:hover {
+    opacity: 0.7;
+    transform: scale(1.02);  /* Slightly increase the size of the button on hover */
+}
+
+.form-control,
+.form-check-input {
+    border-radius: 15px;
+}
+
+/* Style the labels for a more futuristic look */
+label {
+    letter-spacing: 1px;
+    color: #666;
+}
+
+/* Style the headings for a more modern look */
+h1 {
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Style the cover letter output for a more appealing look */
+.coverLetterOutput {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Add a hover effect to the navbar brand */
+.navbar-brand:hover {
+    color: #fff;
+    text-decoration: none;
+}

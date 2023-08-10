@@ -1,0 +1,25 @@
+# Python
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*~
+
+# Flask
+instance/
+.webassets-cache
+
+# Environments
+*.venv
+env/
+venv/
+ENV/
+*.env
+
+# Directories
+__pycache__/
+.pytest_cache/
+
+# Others
+*.DS_Store
+*.vscode/
